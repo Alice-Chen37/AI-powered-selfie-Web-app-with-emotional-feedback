@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Emotion Selfie</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>AI Emotion Selfie App</h1>
+  <video id="video" width="320" height="240" autoplay></video>
+  <br>
+  <button id="snap">Capture</button>
+  <canvas id="canvas" width="320" height="240"></canvas>
+  <div id="results">
+    <p id="confidence">Confidence: </p>
+    <p id="stress">Stress: </p>
+    <p id="energy">Energy: </p>
+    <p id="suggestion">Suggestion: </p>
+  </div>
+  <canvas id="barChart" width="400" height="200"></canvas>
+  <script src="app.js"></script>
+</body>
+</html>
+
+

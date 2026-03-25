@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+video, canvas {
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+#results {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
