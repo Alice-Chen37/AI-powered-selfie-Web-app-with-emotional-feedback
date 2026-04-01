@@ -12,17 +12,20 @@ A demo web app that uses your webcam to capture selfies or video, analyzes emoti
   - **Stress** (%)
   - **Energy** (%)
   - **Suggestion** (motivational text)
-- Real-time feedback visualization
-- Supports simulated data or OpenAI GPT API
+- Real-time feedback visualization with a live chart  
+- Supports simulated data for testing or OpenAI GPT API for real AI predictions  
+- Two modes:  
+  1. **Capture** – single photo analysis  
+  2. **Video** – continuous real-time analysis with historical 
 
 ---
 
 ## Tech Stack
 
-- **Frontend**: HTML + JavaScript + Webcam API
-- **Backend**: Node.js + Express + node-fetch + dotenv + cors
-- **AI**: OpenAI GPT-4o-mini or simulated random data
-- **Visualization**: Live display and bar charts
+- **Frontend**: HTML + JavaScript + Webcam API  
+- **Backend**: Node.js + Express + node-fetch + dotenv + cors  
+- **AI**: OpenAI GPT-4o-mini or simulated random data  
+- **Visualization**: Live display and Chart.js line charts  
 
 ---
 
@@ -49,4 +52,17 @@ Open frontend/index.html with VS Code Live Server or browser
 
 Allow webcam access
 
-Click Capture to see emotion analysis
+Click Capture/video to see emotion analysis
+
+---
+
+Project Structure
+
+AI-Powered Selfie App/
+│
+├─ index.html          # Frontend UI
+├─ app.js              # Frontend logic
+├─ style.css           # Optional styles
+├─ server.cjs          # Backend server for OpenAI API (optional)
+├─ README.md           # Project instructions
+└─ screenshots/        # Example screenshots or GIFs
